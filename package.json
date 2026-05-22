@@ -1,0 +1,15 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "A video app where you can upload the videos and watch them just like the Youtube",
+  "keywords": [
+    "Youtube"
+  ],
+  "license": "ISC",
+  "author": "Prashant Prabhakar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
