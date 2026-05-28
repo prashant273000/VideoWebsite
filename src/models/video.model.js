@@ -13,7 +13,7 @@ const videoSchema = new mongoose.Schema(
         },
         thumbnail:{
             type:String,
-            require:true,
+            required:true,
         },
         owner:{
             type:Schema.types.ObjectId,
