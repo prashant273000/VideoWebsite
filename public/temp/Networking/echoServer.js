@@ -1,17 +1,18 @@
 import http from "http"
 const server = http.createServer((req,res)=>{
-    console.log("Method:", req.method);
-    console.log("URL:", req.url);
-    console.log("Headers:",req.headers);
-    
+    // console.log("Method:", req.method);
+    // console.log("URL:", req.url);
+    // console.log("Headers:",req.headers);
+    console.log("Body:",req.body);
     res.setHeader("Content-Type","application/json")
     res.setHeader("Location", "India")
     res.end(
         JSON.stringify(
             {
-                method:req.method,
-                url:req.url,
-                headers:req.headers
+                // method:req.method,
+                // url:req.url,
+                // headers:req.headers,
+                // body:req.body
             }
         )
     )
