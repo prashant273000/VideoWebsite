@@ -11,8 +11,6 @@ const asyncHandler = (function) =>{
 
 
 */
-
-
 export {asyncHandler}
 
 //Method 1 - Try Catch method

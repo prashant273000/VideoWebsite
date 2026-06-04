@@ -25,6 +25,52 @@ connectDB() //returns the promise
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 PROMISE IN JAVASCRIPT:
 
